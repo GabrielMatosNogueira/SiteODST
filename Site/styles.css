@@ -1,0 +1,40 @@
+h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.sobre {
+    width: 65%;
+}
+.sobre h3 {
+    color: rgb(3, 3, 3);
+}
+.sobre p {
+    background-color: #ffffff;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.autoria {
+    width: 30%;
+    text-align: left;
+}
+.autoria h3 {
+    color: rgb(3, 3, 3);
+}
+.aluno-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.redes-sociais h3 {
+    color: rgb(3, 3, 3);
+}
+.redes-sociais img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}

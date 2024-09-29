@@ -1,0 +1,78 @@
+
+.visao-geral, .elenco, .temporadas-episodios {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.visao-geral h3, .elenco h3, .temporadas-episodios h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.detalhe-serie {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.serie-info {
+    display: flex;
+}
+
+.serie-info img {
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.serie-info .info p {
+    margin-bottom: 10px;
+}
+
+.btn-minhas-series {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.elenco-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.elenco-item {
+    text-align: center;
+}
+
+.elenco-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.elenco-item p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.temporada {
+    display: flex;
+    margin-top: 20px;
+}
+
+.temporada > img {
+    width: 100px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.temporada .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

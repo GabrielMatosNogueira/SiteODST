@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explorarODST</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./shared.css">
+</head>
+<body>
+    <header class="bg-dark text-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="https://i.ibb.co/VLLtQ34/haloodst.jpg" width="64" height="64" alt="Logo">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="explorer-section py-5">
+        <div class="container">
+            <div class="row">
+                <aside class="col-md-3">
+                    <h4>Filtrar por:</h4>
+                    <div class="mb-4">
+                        <label for="category-filter" class="form-label">Categoria</label>
+                        <select id="category-filter" class="form-select">
+                            <option value="all">Todas as Categorias</option>
+                            <option value="drama">Drama</option>
+                            <option value="comedy">Comédia</option>
+                            <option value="action">Ação</option>
+                            <option value="fantasy">Fantasia</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <label for="year-filter" class="form-label">Ano de Lançamento</label>
+                        <select id="year-filter" class="form-select">
+                            <option value="all">Todos os Anos</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <label for="rating-filter" class="form-label">Avaliação</label>
+                        <select id="rating-filter" class="form-select">
+                            <option value="all">Todas as Avaliações</option>
+                            <option value="5">5 Estrelas</option>
+                            <option value="4">4 Estrelas</option>
+                            <option value="3">3 Estrelas</option>
+                            <option value="2">2 Estrelas</option>
+                            <option value="1">1 Estrela</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary w-100" id="filter-button">Aplicar Filtros</button>
+                </aside>
+                <div class="col-md-9">
+                    <div class="row mb-5">
+                        <div class="col-md-12">
+                            <div class="input-group input-group-lg mb-4">
+                                <input type="text" class="form-control" placeholder="Busque séries pelo nome..." id="search-input">
+                                <button class="btn btn-primary" type="button" id="search-button">Pesquisar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="search-results" class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <a href="../Serie/gameofthrones.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xwq2TALKkuCujBnUTpr57wDO61y.jpg" width="100%" width="500" height="500"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Game of Thrones</h5>
+                                    <p class="card-text">Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias lutam pelo controle da mítica terra de Westeros, dividida depois de uma guerra. Num cenário que lembra a Europa medieval, reis, rainhas, cavaleiros e renegados usam todos os meios possíveis em um jogo político pela disputa do Trono de Ferro, o símbolo do poder absoluto..</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <a href="serie.html" class="btn btn-primary">Ver detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <a href="../Serie/senhordosneis.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/b5pl6GmQmTCHmZKEBhXPN0gmoAq.jpg" width= "100%" width="500" height="500"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">O senhor dos anéis</h5>
+                                    <p class="card-text">Tendo início em uma época de relativa paz, a série acompanha um grupo de personagens que enfrenta o ressurgimento do mal na Terra-média. Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, do belíssimo reino da ilha de Númenor, até os confins do mapa, esses reinos e personagens criarão legados que permanecerão vivos muito além de suas partidas.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <a href="serie.html" class="btn btn-primary">Ver detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
